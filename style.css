@@ -2,29 +2,30 @@
   font-family: 'Sedgwick Ave Display', cursive;
 }
 
-body {
-	background-color: #2c2533;
-	font-family: 'Sedgwick Ave Display', cursive !important;
-}
-
-#left-sidebar, #top_nav, #mw-head, #mw-panel, header {
-	background-color: rgba(44, 37, 51, 0.9) !important;
+/* Dark Mode */
+.dark-mode body {
 	color: #ffffff !important;
 }
 
-#content, main, #center_col {
+/* Halloween Theme */
+.halloween {
+	background-color: #2c2533;
+	font-family: 'Sedgwick Ave Display', cursive !important;
+}
+.halloween #left-sidebar, .halloween #top_nav, .halloween #mw-head, .halloween #mw-panel, .halloween header {
+	background-color: rgba(44, 37, 51, 0.9) !important;
+	color: #ffffff !important;
+}
+.halloween #content, .halloween main, .halloween #center_col {
 	background-color: rgba(235, 97, 35, 0.9) !important;
 	color: #000000 !important;
 }
-
-#content a, main a, #center_col a, a span {
+.halloween #content a, .halloween main a, .halloween #center_col a, .halloween a span {
 	color: #0645ad !important;
 }
-
-#content a:visited, main a:visited, #center_col a:visited, a:visited span {
+.halloween #content a:visited, .halloween main a:visited, .halloween #center_col a:visited, .halloween a:visited span {
 	color: #0b0080 !important;
 }
-
-span {
+.halloween span {
 	color: #000000 !important;
 }
