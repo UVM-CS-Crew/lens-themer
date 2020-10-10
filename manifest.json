@@ -1,0 +1,22 @@
+{
+	"name": "Spooky Website Lens",
+	"version": "0.1",
+	"description": "Spookify any website!",
+	"permissions": ["activeTab", "declarativeContent", "storage"],
+	"content_scripts": [
+		{
+			"js": ["/content_script.js"],
+			"css": ["/style.css"],
+			"matches": ["https://en.wikipedia.org/*"]
+		}
+	],
+	"page_action": {
+      "default_icon": {
+        "128": "images/ghost-icon128.png"
+      }
+    },
+    "icons": {
+      "128": "images/ghost-icon128.png"
+    },
+    "manifest_version": 2
+  }
