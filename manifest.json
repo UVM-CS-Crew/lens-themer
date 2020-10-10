@@ -2,13 +2,16 @@
 	"name": "Spooky Website Lens",
 	"version": "0.1",
 	"description": "Spookify any website!",
-	"permissions": ["activeTab", "declarativeContent", "storage"],
+	"permissions": ["tabs", "http://*/*", "https://*/*", "file:///*/*"],
 	"content_scripts": [
 		{
+			"matches": ["http://*/*", "https://*/*", "file:///*/*"],
 			"js": ["/content_script.js"],
-			"css": ["/style.css"],
-			"matches": ["https://en.wikipedia.org/*"]
+			"css": ["/style.css"]
 		}
+	],
+	"web_accessible_resources": [
+		"images/*.png"
 	],
 	"page_action": {
       "default_icon": {

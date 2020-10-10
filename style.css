@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+body {
+	background-color: #2c2533;
+	font-family: 'Sedgwick Ave Display', cursive !important;
+}
+
+#left-sidebar, #top_nav, #mw-head, #mw-panel, header {
+	background-color: rgba(44, 37, 51, 0.9) !important;
+	color: #ffffff !important;
+}
+
+#content, main, #center_col {
+	background-color: rgba(235, 97, 35, 0.9) !important;
+	color: #000000 !important;
+}
+
+#content a, main a, #center_col a, a span {
+	color: #0645ad !important;
+}
+
+#content a:visited, main a:visited, #center_col a:visited, a:visited span {
+	color: #0b0080 !important;
+}
+
+span {
+	color: #000000 !important;
+}
