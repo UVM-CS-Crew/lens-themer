@@ -1,7 +1,33 @@
 chrome.runtime.onMessage.addListener(
 	function(message, sender, sendResponse) {
 		var temp = document.createElement('div');
-		if (message.mode === "halloween") {
+		if (message.mode === "dark") {
+			// Enable dark mode, remove all other themes
+			if (document.querySelector("body").classList.contains("dark")) {
+				document.querySelector("body").classList.remove("dark");
+			}
+			if (document.querySelector("body").classList.contains("halloween")) {
+				document.querySelector("body").classList.remove("halloween");
+				document.getElementById("lensImports").outerHTML = "";
+			}
+			console.log("adding dark class");
+			document.querySelector("body").classList.add(message.mode);
+			
+			var head = document.head;
+
+			while (temp.firstChild) {
+				head.appendChild(temp.firstChild);
+			}
+		}
+		else if (message.mode === "halloween") {
+			// Enable halloween mode, remove all other themes
+			if (document.querySelector("body").classList.contains("dark")) {
+				document.querySelector("body").classList.remove("dark");
+			}
+			if (document.querySelector("body").classList.contains("halloween")) {
+				document.querySelector("body").classList.remove("halloween");
+				document.getElementById("lensImports").outerHTML = "";
+			}
 			var minBackgrounds = 1;
 			var maxBackgrounds = 5;
 			
@@ -17,10 +43,11 @@ chrome.runtime.onMessage.addListener(
 			}
 		}
 		else if (message.mode === "disable") {
+			if (document.querySelector("body").classList.contains("dark")) {
+				document.querySelector("body").classList.remove("dark");
+			}
 			if (document.querySelector("body").classList.contains("halloween")) {
-					console.log("removing class");
 				document.querySelector("body").classList.remove("halloween");
-				
 				document.getElementById("lensImports").outerHTML = "";
 			}
 		}

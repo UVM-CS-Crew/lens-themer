@@ -1,7 +1,7 @@
 {
-	"name": "Spooky Website Lens",
-	"version": "0.1",
-	"description": "Spookify any website!",
+	"name": "Lens Themer",
+	"version": "0.2",
+	"description": "Add a theme to any website.",
 	"permissions": ["tabs", "http://*/*", "https://*/*", "file:///*/*"],
 	"content_scripts": [
 		{
@@ -11,14 +11,14 @@
 		}
 	],
 	"browser_action": {
-		"default_icon": "images/ghost-icon128.png",
+		"default_icon": "images/web-design128.png",
 		"default_popup": "popup.html"
 	},
 	"web_accessible_resources": [
 		"images/*.png"
 	],
     "icons": {
-      "128": "images/ghost-icon128.png"
+      "128": "images/web-design128.png"
     },
     "manifest_version": 2
   }

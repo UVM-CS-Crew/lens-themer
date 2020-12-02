@@ -3,8 +3,16 @@
 }
 
 /* Dark Mode */
-.dark-mode body {
+.dark body, .dark #columns, .dark #content, .dark main, .dark #center_col , 
+.dark #content-text.ytd-comment-renderer, .dark #author-text.yt-simple-endpoint.ytd-comment-renderer, 
+.dark h3.ytd-compact-video-renderer, .dark h1.title, .dark .yt-formatted-string, .dark .count-text,
+.dark #upnext {
 	color: #ffffff !important;
+	background-color: #202020 !important;
+}
+
+.dark .ytd-video-meta-block {
+	color: #bbbbbb !important;
 }
 
 /* Halloween Theme */
