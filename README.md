@@ -1,6 +1,5 @@
 # Lens Themer
-[Originally Spooky Website Lens]
-A Chrome extension that will inject html and css to give a website a custom theme, such as dark mode or halloween mode.
+Originally Spooky Website Lens, this Chrome extension can inject html and css to a website to give it a custom theme, such as dark mode or halloween mode.
 Created for the UVM CS Crew 2020 Halloween Hackathon, expanded upon for the UVM CS Fair 2020.
 
 # Concept
