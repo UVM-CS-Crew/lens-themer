@@ -13,7 +13,8 @@
 .dark #left-sidebar, .dark #top_nav, .dark #mw-head, .dark #mw-panel, .dark header, .dark .firstHeading,
 .dark .mw-headline, .dark #footer li, .dark .list-reset li a, .dark .fl1 a, .dark .fl1 a:visited
 .dark .s-sidebarwidget__yellow .s-sidebarwidget--header, .dark .s-label, .dark #h-linked, .dark #h-related,
-.dark .tex2jax_ignore h4, .dark .p0 .s-sidebarwidget--header {
+.dark .tex2jax_ignore h4, .dark .p0 .s-sidebarwidget--header, .dark #bs-example-navbar-collapse-1,
+.dark .col-md-12 h2, .dark .navbar-nav, .dark .page-title {
 	color: #ffffff !important;
 	background-color: #202020 !important;
 }
@@ -58,13 +59,22 @@
 }
 
 .dark .JolIg, .dark .infobox, .dark .infobox th, .dark #toc, .dark .thumbinner, .dark .sistersitebox,
-.dark .navbox-title, .dark .navbox-group, .dark .navbox-image, .dark .navbox-abovebelow {
+.dark .navbox-title, .dark .navbox-group, .dark .navbox-image, .dark .navbox-abovebelow, .dark .navbar-nav li,
+.dark .row, .dark .row p, .dark .col-md-12 ol {
 	color: #ffffff !important;
 	background-color: #323232 !important;
 }
 
+.dark footer {
+	background-color: #121212 !important;
+}
+
 .dark .OJXvsb {
 	border-color: #323232 !important;
+}
+
+.dark .navbar-nav li, .dark header {
+	border-color: #bbbbbb !important;
 }
 
 .dark #searchInput {
