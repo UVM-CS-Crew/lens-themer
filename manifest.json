@@ -6,8 +6,8 @@
 	"content_scripts": [
 		{
 			"matches": ["http://*/*", "https://*/*", "file:///*/*"],
-			"js": ["/content_script.js", "popup.js", "jquery-3.5.1.min.js"],
-			"css": ["/style.css"]
+			"js": ["content_script.js", "popup.js", "jquery-3.5.1.min.js"],
+			"css": ["style.css"]
 		}
 	],
 	"browser_action": {

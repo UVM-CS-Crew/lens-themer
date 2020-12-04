@@ -6,13 +6,40 @@
 .dark body, .dark #columns, .dark #content, .dark main, .dark #center_col , 
 .dark #content-text.ytd-comment-renderer, .dark #author-text.yt-simple-endpoint.ytd-comment-renderer, 
 .dark h3.ytd-compact-video-renderer, .dark h1.title, .dark .yt-formatted-string, .dark .count-text,
-.dark #upnext {
+.dark #upnext, .dark #hdtbSum, .dark #slim_appbar, .dark #result-stats, .dark #extabar, .dark .sfbg,
+.dark .hide-focus-ring, .dark .hdtb-dd-b, .dark .gb_8e, .dark .aCOpRe, .dark .aCOpRe em, .dark .f,
+.dark .fG8Fp, .dark .wrBvFf, .dark .fbar, .dark .smiUbb a, .dark .smiUbb span, .dark .eJ7tvc, .dark .YyVfkd,
+.dark .ytd-masthead, .dark yt-icon, .dark #icon-label, .dark .title yt-formatted-string, .dark #video-title,
+.dark #left-sidebar, .dark #top_nav, .dark #mw-head, .dark #mw-panel, .dark header {
 	color: #ffffff !important;
 	background-color: #202020 !important;
 }
 
-.dark .ytd-video-meta-block {
+.dark .ytd-video-meta-block, .dark .ytd-video-primary-info-renderer, .dark #top-level-buttons .ytd-toggle-button-renderer,
+.dark #top-level-buttons .yt-formatted-string, .dark #like-bar.ytd-sentiment-bar-renderer, .dark #text,
+.dark .more-button, .dark #owner-sub-count, .dark .view-count, .dark #contenteditable-root, .dark #vote-count-middle {
 	color: #bbbbbb !important;
+}
+
+.dark .hdtb-imb {
+	color: #7ab3ff !important;
+	border-bottom-color: #7ab3ff !important;
+}
+
+.dark .ytd-sentiment-bar-renderer {
+	background-color: #505050;
+}
+
+.dark .yuRUbf a, .dark .nVcaUb a, .dark .VNLkW a, .dark .exp-c a, .dark .AaVjTc a {
+	color: #7ab3ff !important;
+}
+
+.dark .yuRUbf a:visited, .dark .nVcaUb a:visited, .dark .VNLkW a:visited, .dark .exp-c a:visited, .dark .AaVjTc a:visited {
+	color: #3a73bf !important;
+}
+
+.dark .dyjrff, .dark .med, .dark .iUh30 {
+	color: #bbc6d4 !important;
 }
 
 /* Halloween Theme */
@@ -24,10 +51,18 @@
 	background-color: rgba(44, 37, 51, 0.9) !important;
 	color: #ffffff !important;
 }
+.halloween body, .halloween #columns, .halloween #content, .halloween main, .halloween #center_col , 
+.halloween #content-text.ytd-comment-renderer, .halloween #author-text.yt-simple-endpoint.ytd-comment-renderer, 
+.halloween h3.ytd-compact-video-renderer, .halloween h1.title, .halloween .yt-formatted-string, .halloween .count-text,
+.halloween #upnext, .halloween #hdtbSum, .halloween #slim_appbar, .halloween #result-stats, .halloween #extabar, .halloween .sfbg,
+.halloween .hide-focus-ring, .halloween .hdtb-dd-b, .halloween .gb_8e, .halloween .aCOpRe, .halloween .aCOpRe em, .halloween .f,
+.halloween .fG8Fp, .halloween .wrBvFf, .halloween .fbar, .halloween .smiUbb a, .halloween .smiUbb span, .halloween .eJ7tvc, .halloween .YyVfkd,
+.halloween .ytd-masthead, .halloween yt-icon, .halloween #icon-label, .halloween .title yt-formatted-string, .halloween #video-title,
 .halloween #content, .halloween main, .halloween #center_col {
 	background-color: rgba(235, 97, 35, 0.9) !important;
 	color: #000000 !important;
 }
+
 .halloween #content a, .halloween main a, .halloween #center_col a, .halloween a span {
 	color: #0645ad !important;
 }

@@ -5,28 +5,27 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function changeHandler(){
+	var modeString = "";
 	if(document.getElementById('dark').checked){
 		console.log("dark mode enabled");
-		chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-			chrome.tabs.sendMessage(tabs[0].id, {mode:"dark"}, function(response){
-				console.log(response.modeChanged);
-			});
-		});
+		modeString = "dark";
 	}
 	else if(document.getElementById('halloween').checked){
 		console.log("halloween mode enabled");
-		chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-			chrome.tabs.sendMessage(tabs[0].id, {mode:"halloween"}, function(response){
-				console.log(response.modeChanged);
-			});
-		});
+		modeString = "halloween";
 	}
 	else if(document.getElementById('disable').checked){
 		console.log("lens disabled");
-		chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-			chrome.tabs.sendMessage(tabs[0].id, {mode:"disable"}, function(response){
+		modeString = "disable";
+	}
+	chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+			console.log(tabs[0].id);
+			console.log("Attempting to send message");
+			chrome.tabs.sendMessage(tabs[0].id, {mode:modeString}, function(response){
 				console.log(response.modeChanged);
 			});
 		});
-	}
+	/*chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+		chrome.tabs.sendMessage(tabs[0].id, {mode : modeString});
+	});*/
 }
