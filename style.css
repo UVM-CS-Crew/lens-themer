@@ -14,7 +14,7 @@
 .dark .mw-headline, .dark #footer li, .dark .list-reset li a, .dark .fl1 a, .dark .fl1 a:visited
 .dark .s-sidebarwidget__yellow .s-sidebarwidget--header, .dark .s-label, .dark #h-linked, .dark #h-related,
 .dark .tex2jax_ignore h4, .dark .p0 .s-sidebarwidget--header, .dark #bs-example-navbar-collapse-1,
-.dark .col-md-12 h2, .dark .navbar-nav, .dark .page-title {
+.dark .col-md-12 h2, .dark .navbar-nav, .dark .page-title, .dark .bg-white {
 	color: #ffffff !important;
 	background-color: #202020 !important;
 }
@@ -24,11 +24,11 @@
 .dark .more-button, .dark #owner-sub-count, .dark .view-count, .dark #contenteditable-root, .dark #vote-count-middle,
 .dark .wrSo4, .dark #pt-anonuserpage, .dark #p-interaction-label, .dark #p-tb-label, .dark #p-coll-print_export-label,
 .dark #p-wikibase-otherprojects-label, .dark #p-lang-label, .dark .wb-langlinks-edit a, .dark .tocnumber,
-.dark .fs-fine, .dark .fc-light, .dark .px16 div a {
+.dark .fs-fine, .dark .fc-light, .dark .px16 div a, .dark .color-text-secondary {
 	color: #bbbbbb !important;
 }
 
-.dark #mw-toc-heading {
+.dark #mw-toc-heading, .dark .link-gray-dark.no-underline {
 	color: #ffffff !important;
 }
 
@@ -60,7 +60,7 @@
 
 .dark .JolIg, .dark .infobox, .dark .infobox th, .dark #toc, .dark .thumbinner, .dark .sistersitebox,
 .dark .navbox-title, .dark .navbox-group, .dark .navbox-image, .dark .navbox-abovebelow, .dark .navbar-nav li,
-.dark .row, .dark .row p, .dark .col-md-12 ol {
+.dark .row, .dark .row p, .dark .col-md-12 ol, .dark #readme {
 	color: #ffffff !important;
 	background-color: #323232 !important;
 }
@@ -93,6 +93,10 @@
 .dark .ytd-searchbox svg {
 	background-color: #f8f8f8 !important;
 	color: #202020 !important;
+}
+
+.dark .link-gray-dark.no-underline strong {
+	color: #586069 !important;
 }
 
 /* Halloween Theme */
