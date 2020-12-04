@@ -10,15 +10,25 @@
 .dark .hide-focus-ring, .dark .hdtb-dd-b, .dark .gb_8e, .dark .aCOpRe, .dark .aCOpRe em, .dark .f,
 .dark .fG8Fp, .dark .wrBvFf, .dark .fbar, .dark .smiUbb a, .dark .smiUbb span, .dark .eJ7tvc, .dark .YyVfkd,
 .dark .ytd-masthead, .dark yt-icon, .dark #icon-label, .dark .title yt-formatted-string, .dark #video-title,
-.dark #left-sidebar, .dark #top_nav, .dark #mw-head, .dark #mw-panel, .dark header {
+.dark #left-sidebar, .dark #top_nav, .dark #mw-head, .dark #mw-panel, .dark header, .dark .firstHeading,
+.dark .mw-headline, .dark #footer li, .dark .list-reset li a, .dark .fl1 a, .dark .fl1 a:visited
+.dark .s-sidebarwidget__yellow .s-sidebarwidget--header, .dark .s-label, .dark #h-linked, .dark #h-related,
+.dark .tex2jax_ignore h4, .dark .p0 .s-sidebarwidget--header {
 	color: #ffffff !important;
 	background-color: #202020 !important;
 }
 
 .dark .ytd-video-meta-block, .dark .ytd-video-primary-info-renderer, .dark #top-level-buttons .ytd-toggle-button-renderer,
 .dark #top-level-buttons .yt-formatted-string, .dark #like-bar.ytd-sentiment-bar-renderer, .dark #text,
-.dark .more-button, .dark #owner-sub-count, .dark .view-count, .dark #contenteditable-root, .dark #vote-count-middle {
+.dark .more-button, .dark #owner-sub-count, .dark .view-count, .dark #contenteditable-root, .dark #vote-count-middle,
+.dark .wrSo4, .dark #pt-anonuserpage, .dark #p-interaction-label, .dark #p-tb-label, .dark #p-coll-print_export-label,
+.dark #p-wikibase-otherprojects-label, .dark #p-lang-label, .dark .wb-langlinks-edit a, .dark .tocnumber,
+.dark .fs-fine, .dark .fc-light, .dark .px16 div a {
 	color: #bbbbbb !important;
+}
+
+.dark #mw-toc-heading {
+	color: #ffffff !important;
 }
 
 .dark .hdtb-imb {
@@ -26,20 +36,53 @@
 	border-bottom-color: #7ab3ff !important;
 }
 
-.dark .ytd-sentiment-bar-renderer {
-	background-color: #505050;
+.dark .ytd-sentiment-bar-renderer, .dark .youarehere, .dark .youarehere a, .dark .navbox-list,
+.dark .comment-body code, .dark p code {
+	background-color: #505050 !important;
 }
 
-.dark .yuRUbf a, .dark .nVcaUb a, .dark .VNLkW a, .dark .exp-c a, .dark .AaVjTc a {
+.dark .yuRUbf a, .dark .nVcaUb a, .dark .VNLkW a, .dark .exp-c a, .dark .AaVjTc a, .dark .wrBvFf a,
+.dark .vector-menu-content-list li a, .dark .mw-parser-output a, .dark #footer a, .dark .nav-links li a,
+.dark .question-hyperlink {
 	color: #7ab3ff !important;
 }
 
-.dark .yuRUbf a:visited, .dark .nVcaUb a:visited, .dark .VNLkW a:visited, .dark .exp-c a:visited, .dark .AaVjTc a:visited {
+.dark .yuRUbf a:visited, .dark .nVcaUb a:visited, .dark .VNLkW a:visited, .dark .exp-c a:visited,
+.dark .AaVjTc a:visited, .dark .wrBvFf a:visited, .dark .vector-menu-content-list li a:visited,
+.dark .mw-parser-output a:visited, .dark #footer a:visited, .dark .nav-links li a:visited {
 	color: #3a73bf !important;
 }
 
 .dark .dyjrff, .dark .med, .dark .iUh30 {
 	color: #bbc6d4 !important;
+}
+
+.dark .JolIg, .dark .infobox, .dark .infobox th, .dark #toc, .dark .thumbinner, .dark .sistersitebox,
+.dark .navbox-title, .dark .navbox-group, .dark .navbox-image, .dark .navbox-abovebelow {
+	color: #ffffff !important;
+	background-color: #323232 !important;
+}
+
+.dark .OJXvsb {
+	border-color: #323232 !important;
+}
+
+.dark #searchInput {
+	background-color: #ffffff !important;
+}
+
+.dark p code {
+	color: #ffffff !important;
+}
+
+.dark #ca-view a, .dark #ca-viewsource a, .dark #ca-history a, .dark #ca-nstab-main a, .dark #ca-talk a,
+.dark .s-sidebarwidget__yellow {
+	background-color: #323232 !important;
+}
+
+.dark .ytd-searchbox svg {
+	background-color: #f8f8f8 !important;
+	color: #202020 !important;
 }
 
 /* Halloween Theme */
